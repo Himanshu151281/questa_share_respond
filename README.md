@@ -6,26 +6,6 @@ A modern quiz creation and sharing platform built with React and TypeScript.
 
 This application allows users to create, share, and respond to quizzes with an intuitive interface and real-time functionality.
 
-## Getting Started
-
-To run this project locally, you'll need Node.js and npm installed.
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies
-npm i
-
-# Step 4: Start the development server
-npm run dev
-```
-
 ## Available Scripts
 
 - `npm run dev` - Start the development server
