@@ -12,10 +12,10 @@ This application allows users to create, share, and respond to quizzes with an i
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/Himanshu151281/questa-share-respond
+git clone https://github.com/Himanshu151281/questa_share_respond
 
 # Step 2: Navigate to the project directory.
-cd questa-share-respond
+cd questa_share_respond
 
 # Step 3: Install the necessary dependencies.
 npm i
