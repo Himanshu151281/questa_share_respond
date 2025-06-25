@@ -1,3 +1,5 @@
+## Live Link :- https://questa-share.netlify.app
+
 # Quiz Sharing Application
 
 A modern quiz creation and sharing platform built with React and TypeScript.
@@ -5,6 +7,22 @@ A modern quiz creation and sharing platform built with React and TypeScript.
 ## Project Overview
 
 This application allows users to create, share, and respond to quizzes with an intuitive interface and real-time functionality.
+
+## How to run this project
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/Himanshu151281/questa_share_respond
+
+# Step 2: Navigate to the project directory.
+cd questa_share_respond
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
 ## Available Scripts
 
