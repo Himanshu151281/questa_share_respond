@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
@@ -7,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { getUserQuizzes, getResponsesForQuiz } from '@/utils/storage';
 import { Quiz } from '@/types/quiz';
 import { PlusCircle, Eye, BarChart3, Share, LogOut } from 'lucide-react';
+import Footer from '@/components/Footer';
 
 const Dashboard = () => {
   const { user, logout, isAuthenticated } = useAuth();
@@ -35,7 +35,7 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
@@ -130,6 +130,8 @@ const Dashboard = () => {
           </div>
         )}
       </main>
+
+      <Footer />
     </div>
   );
 };

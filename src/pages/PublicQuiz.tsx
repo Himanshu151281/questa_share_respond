@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { getQuizById, saveQuizResponse } from '@/utils/storage';
 import { Quiz, QuizResponse } from '@/types/quiz';
 import { toast } from 'sonner';
+import Footer from '@/components/Footer';
 
 const PublicQuiz = () => {
   const { id } = useParams<{ id: string }>();
@@ -66,7 +67,7 @@ const PublicQuiz = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
+    <div className="min-h-screen bg-gray-50 py-8 flex flex-col">
       <div className="max-w-2xl mx-auto px-4">
         <Card>
           <CardHeader>
@@ -129,6 +130,7 @@ const PublicQuiz = () => {
           </CardContent>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 };
